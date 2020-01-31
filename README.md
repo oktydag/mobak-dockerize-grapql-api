@@ -22,7 +22,7 @@ You can install the latest version via [NuGet](https://www.nuget.org/packages/Gr
 > dotnet add package GraphQL -v 3.0.0-preview-1352
 ```
 
-## 2.  Sample Usage of GraphQL 
+## 3.  Sample Usage of GraphQL 
 
 ```
 Request URL :	 http://localhost:8000/graphql
@@ -71,7 +71,7 @@ Request URL :	 http://localhost:8000/graphql
 ```
 
 
-## 3. Dockerize Asp.net Core Web API
+## 4. Dockerize Asp.net Core Web API
 
 - ** Create a Dockerfile** in your project directory, for this project, I created like this; 
 
