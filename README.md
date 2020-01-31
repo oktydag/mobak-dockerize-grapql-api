@@ -73,7 +73,7 @@ Request URL :	 http://localhost:8000/graphql
 
 ## 4. Dockerize Asp.net Core Web API
 
-- ** Create a Dockerfile** in your project directory, for this project, I created like this; 
+- **Create a Dockerfile** in your project directory, for this project, I created like this; 
 
 ```dockerfile
 FROM microsoft/dotnet:2.2-sdk AS build
@@ -101,7 +101,7 @@ ENTRYPOINT ["dotnet","Moba.Services.dll"]
  docker build -t moba-graphql .
 ```
 
--  **Run a new container ** from moba-graphql image as detach and port is 8000 ( whatever you want ) that gets from 80.
+-  **Run a new container** from moba-graphql image as detach and port is 8000 ( whatever you want ) that gets from 80.
 
 ```dockerfile
 docker container run -d -p 8000:80 --name sample-graphql-api  moba-graphql
